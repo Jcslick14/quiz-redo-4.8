@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	
+	//set up a variable, store a user number in it
+	int num;
+	cout << "enter your favorite number" << endl;
+	cin >> num;
+	if (num == 10)
+		cout << "thats my favorite number too!" << endl;
+	else if (num < 10)
+		cout << "thats a low number!" << endl;
+	else if (num > 10)
+		cout << "thats a high number!" << endl;
+
+
+}
